@@ -1,0 +1,140 @@
+﻿@model List<GestionEmpleadosMVC.Models.Empleado>
+
+<div class="container mt-5">
+
+    <!-- TITULO -->
+
+    <div class="text-center mb-5">
+
+        <h1 class="titulo-principal">
+            Sistema de Gestión de Empleados
+        </h1>
+
+        <p class="subtitulo">
+            Proyecto desarrollado en ASP.NET Core MVC
+        </p>
+
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="row mb-5">
+
+        <div class="col-md-4">
+
+            <div class="card shadow p-4 text-center">
+
+                <h2>@Model.Count()</h2>
+
+                <p>Total Empleados</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card shadow p-4 text-center">
+
+                <h2>
+                    @Model.Count(e => e.Activo)
+                </h2>
+
+                <p>Empleados Activos</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card shadow p-4 text-center">
+
+                <h2>
+                    @Model.Count(e => !e.Activo)
+                </h2>
+
+                <p>Empleados Inactivos</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TABLA -->
+
+    <div class="card shadow">
+
+        <div class="card-header bg-dark text-white">
+
+            <h4>
+                Lista de Empleados
+            </h4>
+
+        </div>
+
+        <div class="card-body">
+
+            <table class="table table-hover table-striped">
+
+                <thead class="table-dark">
+
+                    <tr>
+
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Cargo</th>
+                        <th>Fecha Ingreso</th>
+                        <th>Estado</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    @foreach (var empleado in Model)
+                    {
+                        <tr>
+
+                            <td>@empleado.Id</td>
+
+                            <td>@empleado.Nombre</td>
+
+                            <td>@empleado.Cargo</td>
+
+                            <td>
+                                @empleado.FechaIngreso
+                                .ToShortDateString()
+                            </td>
+
+                            <td>
+
+                                @if (empleado.Activo)
+                                {
+                                    <span class="badge bg-success">
+                                        Activo
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">
+                                        Inactivo
+                                    </span>
+                                }
+
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
