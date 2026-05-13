@@ -15,6 +15,7 @@ C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\Gest
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\GestionEmpleadosMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\GestionEmpleadosMVC.RazorAssemblyInfo.cache
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\GestionEmpleadosMVC.RazorAssemblyInfo.cs
+C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\GestionEmpleadosMVC.sourcelink.json
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

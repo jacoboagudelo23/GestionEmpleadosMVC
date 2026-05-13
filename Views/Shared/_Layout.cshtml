@@ -2,102 +2,197 @@
 <html lang="es">
 
 <head>
-
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechStore | Jacobo Agudelo</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1" />
-
-    <title>Gestión de Empleados</title>
-
-    <!-- BOOTSTRAP -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet">
-
+    <!-- Google Fonts: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP 5 desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- CSS PERSONALIZADO -->
-
-    <link rel="stylesheet"
-          href="~/css/style.css" />
-
+    <link rel="stylesheet" href="~/css/style.css" />
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top" id="mainNav">
         <div class="container">
-
-            <a class="navbar-brand fw-bold"
-                   asp-controller="Empleado"
-                   asp-action="Index">
-
-                Gestión Empleados
-
+            <a class="navbar-brand fw-bold fs-4"
+               asp-controller="Producto"
+               asp-action="Index">
+                <i class="bi bi-laptop-fill me-2"></i>Tech<span style="color:#0d6efd">Store</span>
             </a>
 
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#menu">
-
+            <button class="navbar-toggler border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
-
             </button>
 
-            <div class="collapse navbar-collapse"
-                 id="menu">
-
-                <ul class="navbar-nav ms-auto">
-
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto gap-1">
                     <li class="nav-item">
-
-                        <a class="nav-link"
-                               asp-controller="Empleado"
-                               asp-action="Index">
-
-                            Inicio
-
+                        <a class="nav-link px-3 rounded-pill"
+                           asp-controller="Producto"
+                           asp-action="Index">
+                            <i class="bi bi-grid-fill me-1"></i>Catálogo
                         </a>
-
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link px-3 rounded-pill"
+                           asp-controller="Producto"
+                           asp-action="Index"
+                           asp-route-categoria="Premium">
+                            <i class="bi bi-star-fill me-1"></i>Premium
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3 rounded-pill"
+                           asp-controller="Producto"
+                           asp-action="Index"
+                           asp-route-categoria="Estudiantes">
+                            <i class="bi bi-mortarboard-fill me-1"></i>Estudiantes
+                        </a>
+                    </li>
                 </ul>
-
             </div>
-
         </div>
-
     </nav>
 
-    <!-- CONTENIDO -->
-
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
-
         @RenderBody()
-
     </main>
 
     <!-- FOOTER -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start g-4">
 
-    <footer class="bg-dark text-white text-center p-4 mt-5">
+                <!-- Columna 1: Marca -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-3 fw-bold text-primary">
+                        <i class="bi bi-laptop-fill me-2"></i>TechStore
+                    </h5>
+                    <p class="small text-secondary">
+                        Tu destino número uno para laptops y tecnología de última generación.
+                        Calidad y garantía garantizada.
+                    </p>
+                </div>
 
-        <h5>
-            Proyecto ASP.NET Core MVC
-        </h5>
+                <!-- Columna 2: Servicios -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-3 fw-bold text-primary">Servicios</h5>
+                    <div class="d-flex flex-column gap-2">
+                        <a asp-controller="Producto" asp-action="Info" asp-route-tipo="Garantía" class="footer-btn">
+                            <i class="bi bi-shield-check me-2"></i>Garantía
+                        </a>
+                        <a asp-controller="Producto" asp-action="Info" asp-route-tipo="Envíos" class="footer-btn">
+                            <i class="bi bi-truck me-2"></i>Envíos
+                        </a>
+                        <a asp-controller="Producto" asp-action="Info" asp-route-tipo="Soporte" class="footer-btn">
+                            <i class="bi bi-tools me-2"></i>Soporte Técnico
+                        </a>
+                        <a asp-controller="Producto" asp-action="Info" asp-route-tipo="Devoluciones" class="footer-btn">
+                            <i class="bi bi-arrow-return-left me-2"></i>Devoluciones
+                        </a>
+                    </div>
+                </div>
 
-        <p>
-            Jacobo Agudelo Bustamante
-        </p>
+                <!-- Columna 3: Categorías -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-3 fw-bold text-primary">Categorías</h5>
+                    <div class="d-flex flex-column gap-2">
+                        <a asp-controller="Producto" asp-action="Index" asp-route-categoria="Premium" class="footer-btn">
+                            <i class="bi bi-star me-2"></i>Premium
+                        </a>
+                        <a asp-controller="Producto" asp-action="Index" asp-route-categoria="Productividad" class="footer-btn">
+                            <i class="bi bi-briefcase me-2"></i>Productividad
+                        </a>
+                        <a asp-controller="Producto" asp-action="Index" asp-route-categoria="Estudiantes" class="footer-btn">
+                            <i class="bi bi-mortarboard me-2"></i>Estudiantes
+                        </a>
+                        <a asp-controller="Producto" asp-action="Index" asp-route-categoria="Trabajo y estudio" class="footer-btn">
+                            <i class="bi bi-laptop me-2"></i>Trabajo
+                        </a>
+                    </div>
+                </div>
 
+                <!-- Columna 4: Contacto -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-3 fw-bold text-primary">Contacto</h5>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="https://maps.google.com/?q=Medellín,Colombia" target="_blank" class="footer-btn">
+                            <i class="bi bi-geo-alt-fill me-2"></i>Medellín, Colombia
+                        </a>
+                        <a href="mailto:contacto@techstore.com" class="footer-btn">
+                            <i class="bi bi-envelope-fill me-2"></i>contacto@techstore.com
+                        </a>
+                        <a asp-controller="Producto" asp-action="Info" asp-route-tipo="Desarrollador" class="footer-btn">
+                            <i class="bi bi-person-fill me-2"></i>Jacobo Agudelo Bustamante
+                        </a>
+                    </div>
+                    <!-- Redes sociales -->
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-start mt-3">
+                        <a href="https://www.facebook.com/TuPagina" target="_blank"
+                           class="btn btn-sm btn-outline-secondary rounded-2" title="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/TuUsuario" target="_blank"
+                           class="btn btn-sm btn-outline-secondary rounded-2" title="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.x.com/TuUsuario" target="_blank"
+                           class="btn btn-sm btn-outline-secondary rounded-2" title="Twitter/X">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://wa.me/573001234567" target="_blank"
+                           class="btn btn-sm btn-outline-secondary rounded-2" title="WhatsApp">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="mb-4 mt-4 border-secondary">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="small text-secondary mb-0">
+                        © 2025 Todos los derechos reservados por:
+                        <strong class="text-primary">TechStore S.A.S</strong>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4 text-center text-md-end">
+                    <p class="small text-secondary mb-0">
+                        Desarrollado con <i class="bi bi-heart-fill text-danger"></i> por
+                        <strong class="text-white">Jacobo Agudelo Bustamante</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- BOOTSTRAP JS -->
-
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
+    <!-- Navbar se oscurece al hacer scroll -->
+    <script>
+        window.addEventListener('scroll', function () {
+        const nav = document.getElementById('mainNav');
+        if (window.scrollY > 40) {
+        nav.style.background = '#0d0d0d';
+        nav.style.boxShadow = '0 2px 20px rgba(0,0,0,0.5)';
+        } else {
+        nav.style.background = '';
+        nav.style.boxShadow = '';
+        }
+        });
+    </script>
 
+</body>
 </html>

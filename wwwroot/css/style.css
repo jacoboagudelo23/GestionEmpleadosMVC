@@ -1,60 +1,181 @@
-﻿body {
-    background-color: #f4f6f9;
-    font-family: Arial, Helvetica, sans-serif;
+﻿/* ================================================
+   TechStore - Estilos personalizados
+   Jacobo Agudelo Bustamante
+   ================================================ */
+
+/* ── VARIABLES ── */
+:root {
+    --color-primary: #0d6efd;
+    --color-dark: #1a1a2e;
+    --color-bg: #f0f2f5;
+    --color-card: #ffffff;
+    --radius-card: 1.25rem;
 }
 
-/* TITULO PRINCIPAL */
-
-.titulo-principal {
-    font-size: 55px;
-    font-weight: bold;
-    color: #0d6efd;
+/* ── GENERAL ── */
+body {
+    background-color: var(--color-bg);
+    font-family: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    color: #212529;
 }
 
-.subtitulo {
-    color: gray;
-    font-size: 20px;
+/* ── NAVBAR ── */
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-/* CARDS */
-
-.card {
-    border: none;
-    border-radius: 15px;
-    transition: 0.3s;
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.12);
+    color: #fff !important;
+    transition: background-color 0.2s ease;
 }
 
-    .card:hover {
-        transform: translateY(-5px);
+/* ── HERO BANNER ── */
+.hero-banner {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: white;
+    padding: 4rem 0 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+    .hero-banner::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+        background-size: 28px 28px;
     }
 
-/* TABLA */
+    .hero-banner .container {
+        position: relative;
+        z-index: 1;
+    }
 
-table {
-    background-color: white;
+    .hero-banner h1 {
+        letter-spacing: 0.04em;
+        text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    }
+
+    .hero-banner .text-muted {
+        color: rgba(255,255,255,0.65) !important;
+    }
+
+/* ── TARJETAS DE PRODUCTO ── */
+.product-card {
+    border-radius: var(--radius-card) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: var(--color-card);
+    overflow: hidden;
 }
 
-/* FOOTER */
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.14) !important;
+    }
 
+/* Imagen de la tarjeta */
+.product-img {
+    height: 210px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    background: #f8f9fa;
+    border-bottom: 1px solid #f0f0f0;
+    transition: transform 0.4s ease;
+}
+
+/* Zoom en imagen al hover */
+.product-card:hover .product-img {
+    transform: scale(1.05);
+}
+
+/* ── BOTÓN VER DETALLES ── */
+.btn-hover {
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+    .btn-hover:hover {
+        transform: scale(1.02);
+        background-color: #333;
+    }
+
+/* ── VISTA DE DETALLE ── */
+.detail-img {
+    max-height: 320px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.12));
+    transition: transform 0.3s ease;
+}
+
+    .detail-img:hover {
+        transform: scale(1.04);
+    }
+
+.precio-detalle {
+    background: #f0f6ff;
+    border-left: 4px solid var(--color-primary);
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.especificaciones {
+    background: #f8f9fa;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+}
+
+.spec-item {
+    border-bottom: 1px dashed #dee2e6;
+    padding-bottom: 0.4rem;
+}
+
+    .spec-item:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+/* ── FOOTER ── */
 footer {
-    margin-top: 100px;
+    border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-/* BADGES */
-
-.badge {
-    font-size: 14px;
-    padding: 8px;
+/* ── BOTONES FOOTER ── */
+.footer-btn {
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-/* NAVBAR */
+    .footer-btn:hover {
+        background-color: rgba(13,110,253,0.15);
+        color: #0d6efd !important;
+        border-color: rgba(13,110,253,0.4);
+    }
 
-.navbar-brand {
-    font-size: 24px;
-}
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+    .hero-banner {
+        padding: 2.5rem 0 2rem;
+    }
 
-/* SOMBRAS */
+        .hero-banner h1 {
+            font-size: 1.8rem;
+        }
 
-.shadow {
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.1) !important;
+    .detail-img {
+        max-height: 220px;
+    }
+
+    .product-img {
+        height: 180px;
+    }
 }
