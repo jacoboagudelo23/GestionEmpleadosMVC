@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programcion web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj": {}
+    "C:\\Programación web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj": {}
   },
   "projects": {
-    "C:\\Programcion web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj": {
+    "C:\\Programación web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programcion web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj",
+        "projectUniqueName": "C:\\Programación web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj",
         "projectName": "GestionEmpleadosMVC",
-        "projectPath": "C:\\Programcion web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj",
+        "projectPath": "C:\\Programación web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj",
         "packagesPath": "C:\\Users\\moral\\.nuget\\packages\\",
-        "outputPath": "C:\\Programcion web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\obj\\",
+        "outputPath": "C:\\Programación web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

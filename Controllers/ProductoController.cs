@@ -70,9 +70,11 @@ namespace GestionEmpleadosMVC.Controllers
         }
 
         // GET: /Producto/Index
-        public IActionResult Index()
+        public IActionResult Index(string? categoria)
         {
             var productos = ObtenerProductos();
+            if (!string.IsNullOrEmpty(categoria))
+                productos = productos.Where(p => p.Categoria == categoria).ToList();
             return View(productos);
         }
 

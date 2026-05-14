@@ -12,57 +12,57 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GestionEmpleadosMVC
 build_property.RootNamespace = GestionEmpleadosMVC
-build_property.ProjectDir = C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC\
+build_property.ProjectDir = C:\Programación web\GestionEmpleadosMVC\GestionEmpleadosMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Programcion web\GestionEmpleadosMVC\GestionEmpleadosMVC
+build_property.MSBuildProjectDirectory = C:\Programación web\GestionEmpleadosMVC\GestionEmpleadosMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Home/Index.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Home/Privacy.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/ConfirmacionPago.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/ConfirmacionPago.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ29uZmlybWFjaW9uUGFnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Detalle.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Index.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Info.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Producto/Info.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/Error.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/_ViewImports.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/_ViewStart.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programcion web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/_Layout.cshtml]
+[C:/Programación web/GestionEmpleadosMVC/GestionEmpleadosMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gfg0s9w1r8
