@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\views\\producto\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\views\\producto\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|c:\\programaci\u00F3n web\\gestionempleadosmvc\\gestionempleadosmvc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A46247CA-EF25-9F40-3D7E-3AC9E4281930}|GestionEmpleadosMVC\\GestionEmpleadosMVC.csproj|solutionrelative:gestionempleadosmvc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\.gitignore",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\.gitignore",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\.gitignore",
+              "RelativeToolTip": "GestionEmpleadosMVC\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-13T02:51:08.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "GestionEmpleadosMVC\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAIwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-13T01:58:17.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Producto\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Views\\Producto\\Detalle.cshtml",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Producto\\Detalle.cshtml",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Views\\Producto\\Detalle.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvx0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T01:20:28.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T22:27:32.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:26:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Program.cs",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Program.cs",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Program.cs",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T02:24:37.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Models\\Producto.cs",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Models\\Producto.cs",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:26:24.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GestionEmpleadosMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Programaci\u00F3n web\\GestionEmpleadosMVC\\GestionEmpleadosMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GestionEmpleadosMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAADwv5sAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T21:27:02.028Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
